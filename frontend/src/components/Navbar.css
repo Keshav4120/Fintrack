@@ -1,0 +1,98 @@
+/* Navbar Styling */
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.5rem 2rem;
+    background-color: #1e1f23;
+    color: white;
+  }
+  
+  .navbar .logo-container {
+    font-size: 1.5rem;
+  }
+  
+  .navbar .logo {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+  
+  .navbar .right-container {
+    display: flex;
+    align-items: center;
+  }
+  
+/* Ensure equal sizes for login and signup buttons */
+.navbar .login-button,
+.navbar .signup-button {
+  text-decoration: none;
+  padding: 0.5rem 1rem;
+  border-radius: 4px;
+  font-size: 1rem; /* Set a consistent font size */
+  display: inline-block;
+  text-align: center;
+  min-width: 10px; /* Ensure both buttons have the same width */
+}
+
+/* Specific styling for login button */
+.navbar .login-button {
+  color: #28a745;
+  background-color: white;
+  margin-left: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+/* Specific styling for signup button */
+.navbar .signup-button {
+  color: white;
+  background-color: #28a745;
+  margin-left: 1rem;
+  transition: background-color 0.3s ease;
+}
+
+/* Hover effects */
+.navbar .login-button:hover {
+  background-color: #e6e6e6; /* Slightly darker white for hover effect */
+}
+
+.navbar .signup-button:hover {
+  background-color: #0a631d;
+}
+
+  .navbar .user-icon-container {
+    position: relative;
+  }
+  
+  .navbar .user-icon {
+    background-color: transparent;
+    border: none;
+    font-size: 1.5rem;
+    cursor: pointer;
+  }
+  
+  .navbar .menu {
+    position: absolute;
+    top: 30px;
+    right: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    z-index: 10;
+    transition: opacity 0.3s ease, visibility 0.3s ease;
+  }
+  
+  .navbar .menu-item {
+    padding: 1rem;
+    text-decoration: none;
+    color: #333;
+    display: block;
+    cursor: pointer;
+  }
+  
+  .navbar .menu-item:hover {
+    background-color: #f0f0f0;
+  }
+  

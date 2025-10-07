@@ -1,0 +1,35 @@
+/* Container for the fetch prompt */
+.fetch-container {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  /* Style for the fetch message */
+  .fetch-message {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #333;
+  }
+  
+  /* Style for the fetch button */
+  .fetch-button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .fetch-button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Add some margin to make sure everything is spaced nicely */
+  .container {
+    padding: 20px;
+  }
+  

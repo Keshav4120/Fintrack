@@ -1,0 +1,194 @@
+/* User Login Styles */
+.login-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full screen height */
+    background: linear-gradient(to bottom, #65b1eb, #f3e5f5); /* Gradient background */
+    color: #333; /* Dark text color for contrast */
+    padding: 0 20px; /* Horizontal padding */
+    font-family: 'Roboto', sans-serif; /* Modern, clean font */
+    overflow: hidden; /* Prevent unwanted scrollbars */
+  }
+  
+  /* Form container */
+  .login-form form {
+    width: 100%;
+    max-width: 400px; /* Restrict form width */
+    padding: 40px;
+    margin: 0 auto;
+    background-color: rgba(255, 255, 255, 0.8); /* Lighter background for the form */
+    border-radius: 12px;
+    box-shadow: 0 4px 40px rgba(0, 0, 0, 0.1); /* Soft shadow for depth */
+    box-sizing: border-box;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+  }
+  
+  /* Hover effect on form container */
+  .login-form form:hover {
+    transform: scale(1.02); /* Slight zoom effect on hover */
+    box-shadow: 0 6px 60px rgba(0, 0, 0, 0.15); /* Enhanced shadow on hover */
+  }
+  
+  /* Form title */
+  .login-form form h2 {
+    font-size: 2.5rem; /* Slightly smaller for better readability */
+    margin-bottom: 25px;
+    color: #72bde2;
+    font-weight: 600;
+    text-align: center;
+    letter-spacing: 1px;
+  }
+  
+  /* Input fields */
+  .login-form form input {
+    margin-bottom: 20px;
+    padding: 16px;
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.1); /* Slightly transparent input background */
+    color: #333; /* Dark text for readability */
+    border: 1px solid #ccc; /* Soft border for input */
+    border-radius: 8px;
+    box-sizing: border-box;
+    font-size: 1rem;
+    transition: border-color 0.3s, background-color 0.3s;
+  }
+  
+  /* Input focus state */
+  .login-form form input:focus {
+    border-color: #0bbed6; /* Focus border color */
+    background-color: rgba(0, 0, 0, 0.2); /* Slight background change on focus */
+    outline: none; /* Remove default outline */
+  }
+  
+  /* Placeholder text */
+  .login-form form input::placeholder {
+    color: #bbb; /* Lighter placeholder color */
+    font-style: italic;
+  }
+  
+  /* Error message */
+  .login-form form p {
+    color: #ff4d4d; /* Red error message */
+    font-size: 1rem;
+    margin-top: 10px;
+    text-align: center;
+  }
+  
+  /* Submit button */
+  .login-form form button {
+    background-color: #0bbed6; /* Button color */
+    color: #fff;
+    border: none;
+    width: 100%;
+    padding: 16px;
+    font-size: 1.1rem;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+    border-radius: 30px; /* Rounded button */
+    font-weight: 600;
+    box-sizing: border-box;
+    letter-spacing: 0.5px;
+  }
+  
+  /* Submit button hover */
+  .login-form form button:hover {
+    background-color: #6656d9; /* Darker color on hover */
+    transform: translateY(-3px); /* Slight pop effect */
+  }
+  
+  /* Submit button: active state */
+  .login-form form button:active {
+    transform: translateY(0); /* Reset pop effect on click */
+  }
+  
+  /* Link style */
+  .login-form form a {
+    text-decoration: none;
+    color: #0bbed6; /* Button color */
+    font-size: 0.9rem;
+    text-align: center;
+    display: block;
+    margin-top: 16px;
+    letter-spacing: 0.5px;
+  }
+  
+  .login-form form a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .login-form form {
+      width: 90%; /* Adjust form width on smaller screens */
+      padding: 30px;
+    }
+  
+    .login-form form h2 {
+      font-size: 2.2rem; /* Adjust font size for smaller screens */
+    }
+  
+    .login-form form input {
+      padding: 14px 16px; /* Adjust input padding */
+    }
+  
+    .login-form form button {
+      padding: 14px; /* Adjust button padding */
+      font-size: 1rem; /* Adjust button font size */
+    }
+  }
+  
+  /* src/styles/UserLogin.css */
+.login-form {
+  max-width: 400px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2 {
+  text-align: center;
+  color: #333;
+}
+
+.form-group {
+  margin-bottom: 15px;
+}
+
+input {
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+input:focus {
+  border-color: #007bff;
+}
+
+button {
+  background-color: #007bff;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+.error-message {
+  color: red;
+  margin-top: 10px;
+  font-size: 14px;
+}

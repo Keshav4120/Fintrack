@@ -1,0 +1,74 @@
+.main--content {
+    background-color: #f1f5f8;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.header--wrapper {
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.header--title h2 {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.search--box input {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.profile-info h3 {
+    margin: 0 0 10px;
+}
+
+.profile-info ul {
+    list-style: none;
+    padding: 0;
+}
+
+.profile-info ul li {
+    padding: 5px 0;
+    border-bottom: 1px solid #ccc;
+}
+
+.help-support-container {
+    margin-top: 20px;
+}
+
+.user-list {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 20px;
+  }
+  
+  .user-card {
+    background-color: #f9f9f9;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border: 1px solid #e0e0e0;
+  }
+  
+  .user-card h2 {
+    margin-bottom: 10px;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .user-card p {
+    margin: 5px 0;
+    color: #555;
+  }
+  
+  .user-card p strong {
+    color: #000;
+  }
+  

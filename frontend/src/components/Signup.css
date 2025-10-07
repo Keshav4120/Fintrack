@@ -1,0 +1,68 @@
+.center-form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh; /* Full screen height */
+    background-image: url('https://wallpaperaccess.com/full/329343.jpg'); /* Add your image URL here */
+    background-size: cover; /* Ensure the background covers the entire container */
+    background-position: center; /* Center the background image */
+    background-repeat: no-repeat; /* Prevent the background from repeating */
+    background-color: #272626; /* Fallback dark background color */
+    color: #070707; /* Light text color */
+  }
+  
+  .center-form form {
+    width: 100%; /* Full width */
+    max-width: 400px; /* Restrict to a maximum width */
+    padding: 20px;
+    margin: 0 auto; /* Center horizontally */
+    background-color: rgba(19, 124, 165, 0.8); /* Dark transparent background */
+    border: 5px solid #e8eef0; /* Dark border */
+    border-radius: 10px; /* Rounded corners */
+    text-align: center;
+    box-shadow: 0 4px 50px rgba(187, 199, 206, 0.5); /* Shadow effect */
+    box-sizing: border-box; /* Ensure padding and borders are included in the width */
+  }
+  
+  .center-form form label {
+    font-weight: bold;
+    color: #fff; /* White label text */
+  }
+  
+  .center-form form .form-control {
+    margin-bottom: 20px;
+    padding: 10px;
+    width: 100%; /* Ensure inputs are the same width */
+    background-color: #08425e !important;
+    color: #fff; /* Input text color */
+    border: 1px solid #151414; /* Dark border for inputs */
+    border-radius: 5px; /* Consistent rounded corners */
+    box-sizing:border-box; /* Include padding and borders in the width */
+  }
+  
+  .center-form form .form-control::placeholder {
+    color: #f6f4f4; /* Placeholder color */
+  }
+  
+  .center-form form .btn {
+    background-color: rgb(59, 160, 227);
+    color: #fff; /* White button text */
+    border: none;
+    width: 100%; /* Button stretches to full form width */
+    padding: 10px;
+    transition: background-color 0.3s ease; /* Smooth transition for hover */
+    box-sizing: border-box; /* Ensure no overflow */
+  }
+  
+  .center-form form .btn:hover {
+    background-color: rgb(8, 69, 122); /* Button hover effect */
+  }
+  
+  /* Responsive Styles */
+  @media (max-width: 768px) {
+    .center-form form {
+      width: 90%; /* Keep form width within screen boundaries on smaller screens */
+    }
+  }
+  

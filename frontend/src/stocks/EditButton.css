@@ -1,0 +1,146 @@
+.container {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: #e7e7ee;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.track-investments-container {
+  text-align: center;
+}
+
+.track-investments-message {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+.track-investments-button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  background-color: #4caf50;
+  color: white;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.track-investments-button:hover {
+  background-color: #45a049;
+}
+
+.edit-button {
+  background-color: #17e86b;
+  color: white;
+  border: none;
+  padding: 10px 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-top: 10px;
+  margin-bottom: -10px;
+  transition: background-color 0.3s ease;
+}
+
+.edit-button:hover {
+  background-color: #0056b3;
+}
+
+.edit-options {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top:10px;
+  margin-bottom: 20px;
+}
+
+.edit-options button {
+  width: auto;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Add/Modify/Delete buttons (Blue) */
+.edit-options button:not(:last-child) {
+  background-color: #007bff; /* Blue for Add/Modify/Delete */
+  color: white;
+}
+
+.edit-options button:not(:last-child):hover {
+  background-color: #0056b3; /* Darker blue on hover */
+}
+
+/* Cancel button (Red) */
+.edit-options button:last-child {
+  background-color: #f44336; /* Red for Cancel */
+  color: white;
+}
+
+.edit-options button:last-child:hover {
+  background-color: #d32f2f; /* Darker red on hover */
+}
+
+.edit-modal {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: #ffffff;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  width: 400px;
+  max-width: 90%;
+  z-index: 1000;
+}
+
+.edit-modal h3 {
+  font-size: 20px;
+  margin-bottom: 15px;
+  text-align: center;
+  color: #333;
+}
+
+.edit-modal input,
+.edit-modal select {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 15px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+.edit-modal button {
+  width: 48%;
+  padding: 10px;
+  font-size: 16px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+/* Add button (Green) */
+.edit-modal button:first-child {
+  background-color: #4caf50;
+  color: white;
+}
+
+.edit-modal button:first-child:hover {
+  background-color: #45a049;
+}
+
+/* Cancel button (Red) */
+.edit-modal button:last-child {
+  background-color: #f44336;
+  color: white;
+}
+
+.edit-modal button:last-child:hover {
+  background-color: #d32f2f;
+}

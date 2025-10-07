@@ -1,0 +1,104 @@
+.about-us-container {
+    display: flex;
+    height: 100vh;
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    color: #ffffff;
+    text-align: center;
+  }
+  
+  .static-image {
+    flex: 1;
+    position: relative;
+    overflow: hidden;
+  }
+  
+  .static-image img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    max-height: 100vh;
+    transition: opacity 0.8s ease-in-out, transform 0.8s ease-in-out;
+  }
+  
+  .transition-image {
+    transform: scale(1.05); /* Optional zoom effect for smoother transitions */
+  }
+  
+  
+  .scroll-content {
+    flex: 1;
+    overflow-y: auto;
+    padding: 2rem;
+    background-color: rgba(18, 18, 18, 0.9);
+    color: #ffffff;
+  }
+  
+  .scroll-content h1 {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+    color: white;
+  }
+
+.scroll-content p {
+    margin-bottom: 1.5rem;
+    line-height: 1.6;
+  }
+  
+  .feature-section {
+    margin-bottom: 2rem;
+  }
+
+.feature-section {
+  opacity: 0;
+  transform: translateY(30px); /* Slightly more noticeable initial transform */
+  transition: opacity 1.2s ease-in-out, transform 1.2s ease-in-out; /* Slower transition */
+}
+
+.feature-section.fade-in {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+  
+  .feature-section h2 {
+    font-size: 2rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .feature-section img {
+    width: 100%;
+    max-width: 600px;
+    height: auto;
+    display: block;
+    margin: 0 auto 1rem;
+    border-radius: 8px;
+  }
+
+  .signup-button-container {
+    text-align: center; /* Center the button */
+    margin-top: 2rem; /* Space above the button */
+    margin-bottom: 2rem; /* Space below the button */
+}
+
+.signup-button {
+    display: inline-block;
+    background-color: #28a745; /* Green color */
+    color: #ffffff; /* White text */
+    text-decoration: none; /* Remove underline */
+    padding: 0.75rem 1.5rem; /* Add some padding */
+    font-size: 1.2rem; /* Font size */
+    border-radius: 5px; /* Rounded corners */
+    transition: background-color 0.3s ease;
+}
+
+.signup-button:hover {
+    background-color: #218838; /* Darker green on hover */
+}
+

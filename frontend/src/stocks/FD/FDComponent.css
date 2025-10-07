@@ -1,0 +1,300 @@
+/* FD Container Specific Styles */
+.fd-container {
+  font-family: Arial, Helvetica, sans-serif;
+  padding: 20px;
+  max-width: 1200px;
+  margin: auto;
+}
+
+.fd-container .dashboard {
+  text-align: center;
+  color: #00bcd4;
+  font-size: 32px;
+  margin-bottom: 30px;
+}
+
+/* FD Row Layout */
+.fd-container .fd-row {
+  display: flex;
+  justify-content: space-between;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  margin-bottom: 20px;
+  padding: 20px;
+  background-color: #f9f9f9;
+  cursor: pointer;
+}
+
+.fd-container .fd-row.expanded {
+  background-color: #e1f5fe; /* Light blue when expanded */
+}
+
+.fd-container .fd-column {
+  flex: 1;
+  padding: 10px;
+}
+
+.fd-container .fd-column h2 {
+  margin: 0;
+  font-size: 24px;
+  color: #333;
+}
+
+.fd-container .fd-column p {
+  font-size: 16px;
+  color: #555;
+}
+
+.fd-container .fd-column label {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+.fd-container input[type="number"] {
+  width: 100%;
+  padding: 8px;
+  font-size: 16px;
+  margin-top: 5px;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.fd-container button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #00bcd4;
+  color: white;
+  border-radius: 4px;
+  cursor: pointer;
+  margin-top: 10px;
+}
+
+.fd-container button:hover {
+  background-color: #2adc33;
+}
+
+.fd-container .buy-button {
+  background-color: #0d936d;
+}
+
+.fd-container .buy-button:hover {
+  background-color: #26a43d;
+}
+
+.fd-container .sell-button {
+  background-color: #ff5722;
+}
+
+.fd-container .sell-button:hover {
+  background-color: #d43f00;
+}
+
+/* Email Form */
+.fd-container .email-form {
+  margin-top: 20px;
+  text-align: center;
+}
+
+.fd-container .email-form label {
+  font-size: 18px;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.fd-container .email-form input {
+  padding: 10px;
+  font-size: 16px;
+  margin-bottom: 10px;
+  width: 300px;
+}
+
+.fd-container .email-form button {
+  background-color: #00bcd4;
+  border-radius: 4px;
+  color: white;
+  font-size: 16px;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+.fd-container .email-form button:hover {
+  background-color: #007f91;
+}
+
+.fd-container .message {
+  text-align: center;
+  margin-top: 20px;
+  font-size: 16px;
+  color: #333;
+}
+
+/* QR Code Section */
+.fd-container .qr-code-container {
+  text-align: center;
+  margin-top: 20px;
+}
+
+.fd-container .qr-code-container h2 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+.fd-container .qr-image {
+  width: 200px;
+  height: 200px;
+}
+
+.fd-container .done-payment-button {
+  background-color: #4caf50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 4px;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.fd-container .done-payment-button:hover {
+  background-color: #388e3c;
+}
+
+/* Health Card Section */
+.fd-container .health-card-container {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.fd-container .health-card-container h2 {
+  font-size: 22px;
+  margin-bottom: 20px;
+}
+
+.fd-container .health-card-image {
+  width: 300px;
+  height: 180px;
+  object-fit: cover;
+  margin-bottom: 20px;
+}
+
+.fd-container .download-button {
+  background-color: #00bcd4;
+  padding: 10px 20px;
+  color: white;
+  font-size: 16px;
+  border-radius: 4px;
+  text-decoration: none;
+  display: inline-block;
+}
+
+.fd-container .download-button:hover {
+  background-color: #007f91;
+}
+
+/* ChatBot Section */
+.fd-container .chatbot-container {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  width: 350px;
+  height: 500px;
+  z-index: 1000;
+  overflow: hidden;
+}
+
+.fd-container .chatbot-close-btn {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  cursor: pointer;
+  background-color: #f1f1f1;
+  border-radius: 50%;
+  padding: 5px;
+}
+
+.fd-container .chatbot-close-btn:hover {
+  background-color: #e0e0e0;
+}
+
+.fd-container .chatbot-icon {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+  background-color: #00bcd4;
+  border-radius: 50%;
+  padding: 15px;
+  cursor: pointer;
+  z-index: 1000;
+}
+
+.fd-container .chatbot-icon:hover {
+  background-color: #007f91;
+}
+
+.fd-container .chatbot-container .rsc-chatbot {
+  height: 100%;
+}
+
+.fd-container .chatbot-container .rsc-chatbot-header {
+  background-color: #00bcd4;
+  color: white;
+  font-size: 15px;
+  text-align: center;
+  padding: 10px;
+}
+
+.fd-container .chatbot-container .rsc-chatbot-bubble {
+  background-color: #00bcd4;
+  color: white;
+}
+
+.fd-container .chatbot-container .rsc-chatbot-user-bubble {
+  background-color: #fff;
+  color: #4a4a4a;
+}
+
+/* FD Container Specific General Styles */
+.fd-container h1 {
+  font-size: 36px;
+  text-align: center;
+  color: #333;
+}
+
+.fd-container h2 {
+  color: #333;
+}
+
+.fd-container p {
+  color: #666;
+}
+
+.fd-container input[type="email"] {
+  padding: 10px;
+  font-size: 16px;
+  margin-top: 10px;
+  width: 250px;
+}
+
+.fd-container input[type="number"] {
+  padding: 10px;
+  font-size: 16px;
+  width: 100%;
+  margin-top: 10px;
+}
+
+.fd-container button {
+  padding: 10px 20px;
+  background-color: #00bcd4;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.fd-container button:hover {
+  background-color: #007f91;
+}
+

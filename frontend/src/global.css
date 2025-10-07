@@ -1,0 +1,21 @@
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #e7e7ee;
+  padding: 0; /* Ensure no padding on the body */
+  width: 100vw; /* Set body width to full viewport width */
+  overflow-x: hidden;
+  background-image: url('/src/assets/background.png');
+}
+
+h1 {
+  font-size: 24px;
+  margin: 0;
+}
+
+h2 {
+  font-size: 18px;
+  margin: 0 0 10px;
+}
+.dashboard-header {
+  margin-bottom: 1px !important;
+}
