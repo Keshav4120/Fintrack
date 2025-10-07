@@ -1,0 +1,90 @@
+[
+  {
+    "name": "State Bank of India (SBI) Fixed Deposit",
+    "tenure": 12,
+    "interest": 6.5,
+    "minInvestment": 1000
+  },
+  {
+    "name": "HDFC Bank Fixed Deposit",
+    "tenure": 24,
+    "interest": 7,
+    "minInvestment": 5000
+  },
+  {
+    "name": "ICICI Bank Fixed Deposit",
+    "tenure": 18,
+    "interest": 6.75,
+    "minInvestment": 10000
+  },
+  {
+    "name": "Axis Bank Fixed Deposit",
+    "tenure": 36,
+    "interest": 7.25,
+    "minInvestment": 5000
+  },
+  {
+    "name": "Kotak Mahindra Bank Fixed Deposit",
+    "tenure": 6,
+    "interest": 6,
+    "minInvestment": 1000
+  },
+  {
+    "name": "Yes Bank Fixed Deposit",
+    "tenure": 30,
+    "interest": 7.1,
+    "minInvestment": 10000
+  },
+  {
+    "name": "Punjab National Bank (PNB) Fixed Deposit",
+    "tenure": 15,
+    "interest": 6.6,
+    "minInvestment": 5000
+  },
+  {
+    "name": "Bank of Baroda Fixed Deposit",
+    "tenure": 20,
+    "interest": 6.8,
+    "minInvestment": 10000
+  },
+  {
+    "name": "aaa",
+    "interestRate": "11",
+    "tenure": "11"
+  },
+  {
+    "name": "Ankit Singh ",
+    "interestRate": "1",
+    "tenure": "1"
+  },
+  {
+    "name": "Ankita",
+    "interestRate": "12",
+    "tenure": "1"
+  },
+  {
+    "name": "aadarsh",
+    "interestRate": "2",
+    "tenure": "1"
+  },
+  {
+    "name": "bhavna ",
+    "interestRate": "2",
+    "tenure": "1"
+  },
+  {
+    "name": "Ankit Singh ",
+    "interestRate": "11",
+    "tenure": "11"
+  },
+  {
+    "name": "Aadarsh Khanna",
+    "interestRate": "56789",
+    "tenure": "4"
+  },
+  {
+    "name": "Riya",
+    "interestRate": "2",
+    "tenure": "4"
+  }
+]

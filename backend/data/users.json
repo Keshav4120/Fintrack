@@ -1,0 +1,340 @@
+[
+  {
+    "id": 1,
+    "name": "dev",
+    "email": "dev@gmail.com",
+    "password": "12345678@a",
+    "role": "customer",
+    "purchases": [
+      {
+        "bondName": "Global Energy Bond",
+        "quantity": 5,
+        "totalInvestment": 5000,
+        "purchaseDate": "2024-11-24T16:02:15.042Z"
+      },
+      {
+        "bondName": "Global Energy Bond",
+        "quantity": 5,
+        "totalInvestment": 5000,
+        "purchaseDate": "2024-11-25T03:56:11.200Z"
+      },
+      {
+        "bondName": "Global Energy Bond",
+        "quantity": 10,
+        "totalInvestment": 50000,
+        "purchaseDate": "2024-11-25T06:56:04.131Z"
+      },
+      {
+        "bondName": "Healthcare Development Bond",
+        "quantity": 6,
+        "totalInvestment": 7200,
+        "purchaseDate": "2024-11-25T13:26:09.422Z"
+      },
+      {
+        "bondName": "Sustainable Agriculture Bond",
+        "quantity": 1,
+        "totalInvestment": 50000,
+        "purchaseDate": "2024-11-26T04:02:05.342Z"
+      },
+      {
+        "bondName": "Tech Growth Bond",
+        "quantity": 1,
+        "totalInvestment": 90000,
+        "purchaseDate": "2024-11-26T05:08:02.861Z"
+      },
+      {
+        "bondName": "Sustainable Agriculture Bond",
+        "quantity": 1,
+        "totalInvestment": 50000,
+        "purchaseDate": "2024-11-26T05:16:05.965Z"
+      },
+      {
+        "bondName": "Tech Growth Bond",
+        "quantity": 6,
+        "totalInvestment": 540000,
+        "purchaseDate": "2024-11-26T16:36:51.118Z"
+      },
+      {
+        "bondName": "Renewable Power Bond",
+        "quantity": 6,
+        "totalInvestment": 7800,
+        "purchaseDate": "2024-11-27T10:42:45.136Z"
+      },
+      {
+        "bondName": "Renewable Power Bond",
+        "quantity": 1,
+        "totalInvestment": 1300,
+        "purchaseDate": "2024-11-28T06:12:21.993Z"
+      }
+    ]
+  },
+  {
+    "id": 2,
+    "name": "harsh",
+    "email": "harsh@gmail.com",
+    "password": "$2b$10$Ql7kmbRW9JQRfuwEQJBEJuCA27CSna9WM9X7oqzkBZbC/Vzle4DXW",
+    "role": "customer",
+    "purchases": [
+      {
+        "bondName": "Sustainable Agriculture Bond",
+        "quantity": 1,
+        "totalInvestment": 800,
+        "purchaseDate": "2024-11-25T13:03:58.965Z"
+      },
+      {
+        "bondName": "Tech Growth Bond",
+        "quantity": 6,
+        "totalInvestment": 9000,
+        "purchaseDate": "2024-11-25T13:04:23.385Z"
+      },
+      {
+        "bondName": "Global Energy Bond",
+        "quantity": 1,
+        "totalInvestment": 1100,
+        "purchaseDate": "2024-11-25T13:11:43.253Z"
+      },
+      {
+        "bondName": "Healthcare Development Bond",
+        "quantity": 1,
+        "totalInvestment": 1200,
+        "purchaseDate": "2024-11-25T13:11:52.453Z"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "password": "$2b$10$Tk22sdxU68DA/n/2x5D0q.C3EibgQCANEopiZOYuJNQp/YMdYe/9a",
+    "role": "customer",
+    "purchases": [
+      {
+        "bondName": "Municipal Infrastructure Bond",
+        "quantity": 10,
+        "totalInvestment": 14000,
+        "purchaseDate": "2024-11-25T07:06:49.021Z"
+      }
+    ]
+  },
+  {
+    "id": 4,
+    "email": "admin@gmail.com",
+    "name": "Admin",
+    "password": "12345678@a",
+    "role": "admin",
+    "purchases": [
+      {
+        "bondName": "Corporate Bond A",
+        "quantity": 10,
+        "totalInvestment": 5000,
+        "purchaseDate": "2024-11-25T06:50:34.605Z"
+      }
+    ]
+  },
+  {
+    "id": 5,
+    "name": "kavya",
+    "email": "kavya@gmail.com",
+    "password": "$2b$10$ug5tFOlDfwEoiV8KC0r9xeuV7MOLwoCytcEd01JaazznRnRmsgAAa",
+    "role": "customer"
+  },
+  {
+    "id": 6,
+    "name": "John Doe",
+    "email": "john.doe@example.com",
+    "password": "$2b$10$EJ68uO0Bc32GrOT94c4BIOXknP5mg8DuX6/qa6RaPMRlEeSwBK2q2",
+    "role": "customer"
+  },
+  {
+    "id": 7,
+    "name": "rohit",
+    "email": "rohit@gmail.com",
+    "password": "$2b$10$FevM/zboI96EYcwV9o6yUuAICDET9.MGK312yggGU0WQ7c54DQbR6",
+    "role": "customer",
+    "purchases": [
+      {
+        "bondName": "Global Energy Bond",
+        "quantity": 5,
+        "totalInvestment": 25000,
+        "purchaseDate": "2024-11-25T12:29:50.981Z"
+      }
+    ]
+  },
+  {
+    "id": 8,
+    "name": "tia",
+    "email": "tia@gmail.com",
+    "password": "$2b$10$1fitfGxCaKs/.cFSB2rKOeyC1kCkDscCnPL6AgOHvoYwizZhiXWaG",
+    "role": "customer"
+  },
+  {
+    "id": 9,
+    "name": "bhawna",
+    "email": "bhawna@gmail.com",
+    "password": "$2b$10$m6oMZko4hGSK1pbm.VPTK.G6hBP4lj/U7ci/ZPRoETd8onVrMQf62",
+    "role": "customer",
+    "purchases": [
+      {
+        "bondName": "Sustainable Agriculture Bond",
+        "quantity": 6,
+        "totalInvestment": 300000,
+        "purchaseDate": "2024-11-28T03:20:14.651Z"
+      }
+    ]
+  },
+  {
+    "id": 10,
+    "name": "Ankit Singh ",
+    "email": "ankitsinghasdfghjkl1@gmail.com",
+    "password": "$2b$10$Dxz6mTkiJG0QVchAeZT33eyPYsGH7rrm0ImyCfn48LRyL3lV31uiu",
+    "role": "customer",
+    "purchases": [
+      {
+        "bondName": "Healthcare Development Bond",
+        "quantity": 67,
+        "totalInvestment": 80400,
+        "purchaseDate": "2024-11-28T14:19:48.515Z"
+      }
+    ]
+  },
+  {
+    "id": 11,
+    "name": "Ankit Singh ",
+    "email": "ankitsinghasdfghjkl1@gmail.com",
+    "password": "$2b$10$.4TYTLii9d9Pw4OF.pOFtOfXFrrKwRoe2fR93CewDQq4UuvKGSaKa",
+    "role": "customer"
+  },
+  {
+    "id": 12,
+    "email": "fdadmin@gmail.com",
+    "name": "FD Admin",
+    "password": "$2b$10$Ne2Zj2fCu/eYgCRHU6a8mOD2antsLRwDIFhgdgFfKhbvAP9ZPAvw6",
+    "role": "fd_admin"
+  },
+  {
+    "id": 13,
+    "email": "loanadmin@gmail.com",
+    "name": "Loan Admin",
+    "password": "$2b$10$s/Peya1Yjc7h5jBx843gce1HxoeIBWPj8hCD3f.O/Q8KTHbVyRNMy",
+    "role": "loan_admin"
+  },
+  {
+    "id": 14,
+    "name": "Ankit Singh ",
+    "email": "ankitsinghasdfghjkl1@gmail.com",
+    "password": "$2b$10$mZ9ZTDUxXkO9UFbZgFnz1OA9DdUPwaeLWLsuXllJiwB0eIfEtMVEK",
+    "role": "customer"
+  },
+  {
+    "id": 15,
+    "name": "Ankit Singh ",
+    "email": "ankitsinghasdfghjkl1@gmail.com",
+    "password": "$2b$10$kwVMxyr.w7U3/ovYoD6x3OOTFyNNR/dTFECfJ2/h0BYbA1fP.DjBW",
+    "role": "customer"
+  },
+  {
+    "id": 16,
+    "name": "Aadarsh Khanna",
+    "email": "aadarshkhanna3300@gmail.com",
+    "password": "$2b$10$aAfYEeg93tc4zLVgzUtIfegIHKmpScRcPad8vhhYNSWO682FFRf7u",
+    "role": "customer"
+  },
+  {
+    "id": 19,
+    "name": "test one",
+    "email": "test1@gmail.com",
+    "password": "12345678@a",
+    "role": "customer",
+    "purchases": [
+      {
+        "bondName": "Global Energy Bond",
+        "quantity": 1,
+        "totalInvestment": 1100,
+        "purchaseDate": "2024-12-10T02:35:41.149Z"
+      },
+      {
+        "bondName": "Healthcare Development Bond",
+        "quantity": 1,
+        "totalInvestment": 1200,
+        "purchaseDate": "2024-12-10T04:08:05.309Z"
+      },
+      {
+        "bondName": "qwer",
+        "quantity": 1,
+        "totalInvestment": 50000,
+        "purchaseDate": "2024-12-10T04:16:00.976Z"
+      }
+    ]
+  },
+  {
+    "id": 20,
+    "name": "dev",
+    "email": "dev@gmail.com",
+    "password": "dev@123456",
+    "role": "customer"
+  },
+  {
+    "id": 20,
+    "name": "Aadarsh Khanna",
+    "email": "test2@gmail.com",
+    "password": "12345678@a",
+    "role": "customer"
+  },
+  {
+    "id": 21,
+    "name": "riya",
+    "email": "riya@gmail.com",
+    "password": "riya@123456",
+    "role": "customer",
+    "purchases": [
+      {
+        "bondName": "Healthcare Development Bond",
+        "quantity": 1,
+        "totalInvestment": 1200,
+        "purchaseDate": "2024-12-02T09:50:11.785Z"
+      }
+    ]
+  },
+  {
+    "id": 22,
+    "name": "new test user one",
+    "email": "newtestuser@gmail.com",
+    "password": "12345678@a",
+    "role": "customer"
+  },
+  {
+    "id": 22,
+    "name": "Aadarsh Khanna",
+    "email": "testuser4@gmail.com",
+    "password": "12345678@a",
+    "role": "customer"
+  },
+  {
+    "id": 23,
+    "name": "test User",
+    "email": "testuser1234@gmail.com",
+    "password": "user@1234",
+    "role": "customer"
+  },
+  {
+    "id": 24,
+    "name": "Ankit Kumar Singh",
+    "email": "ankitsingh123@gmail.com",
+    "password": "1234@asdf",
+    "role": "customer"
+  },
+  {
+    "id": 25,
+    "name": "Test User",
+    "email": "testuser12345@gmail.com",
+    "password": "123456789@ak",
+    "role": "customer"
+  },
+  {
+    "id": 26,
+    "name": "test user",
+    "email": "testuser123456@gmail.com",
+    "password": "123456789@ak",
+    "role": "customer"
+  }
+]

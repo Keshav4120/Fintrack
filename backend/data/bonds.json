@@ -1,0 +1,211 @@
+[
+  {
+    "id": 1,
+    "name": "Global Energy Bond",
+    "type": "Energy Bond",
+    "price": 1100,
+    "couponRate": 6,
+    "rating": "AA+",
+    "interestPaymentFrequency": "Semi-Annually",
+    "maturityDuration": {
+      "years": 11,
+      "months": 8
+    },
+    "yieldToMaturity": 4.8,
+    "effectiveReturns": "4.8%",
+    "securityClass": "Energy",
+    "couponType": "Variable Interest"
+  },
+  {
+    "id": 2,
+    "name": "Tech Growth Bond",
+    "type": "Technology Bond",
+    "price": "500000",
+    "couponRate": "56",
+    "rating": "AAA",
+    "interestPaymentFrequency": "Annually",
+    "maturityDuration": {
+      "years": 8,
+      "months": 3
+    },
+    "yieldToMaturity": 5.5,
+    "effectiveReturns": "5.5%",
+    "securityClass": "Technology",
+    "couponType": "Fixed Interest"
+  },
+  {
+    "id": 3,
+    "name": "Sustainable Agriculture Bond",
+    "type": "Agriculture Bond",
+    "price": "50000",
+    "couponRate": "2",
+    "rating": "A",
+    "interestPaymentFrequency": "Quarterly",
+    "maturityDuration": {
+      "years": 7,
+      "months": 6
+    },
+    "yieldToMaturity": 3.3,
+    "effectiveReturns": "3.2%",
+    "securityClass": "Agriculture",
+    "couponType": "Fixed Interest"
+  },
+  {
+    "id": 4,
+    "name": "Healthcare Development Bond",
+    "type": "Healthcare Bond",
+    "price": 1200,
+    "couponRate": "4.0%",
+    "rating": "A+",
+    "interestPaymentFrequency": "Semi-Annually",
+    "maturityDuration": {
+      "years": 5,
+      "months": 10
+    },
+    "yieldToMaturity": 4.1,
+    "effectiveReturns": "4.0%",
+    "securityClass": "Healthcare",
+    "couponType": "Variable Interest"
+  },
+  {
+    "id": 5,
+    "name": "Green Future Bond",
+    "type": "Environmental Bond",
+    "price": "5862355",
+    "couponRate": "56",
+    "rating": "AA",
+    "interestPaymentFrequency": "Semi-Annually",
+    "maturityDuration": {
+      "years": 10,
+      "months": 2
+    },
+    "yieldToMaturity": 6,
+    "effectiveReturns": "6.0%",
+    "securityClass": "Environmental",
+    "couponType": "Fixed Interest"
+  },
+  {
+    "id": 6,
+    "name": "Smart City Bond",
+    "type": "Urban Development Bond",
+    "price": 1800,
+    "couponRate": 5,
+    "rating": "AA-",
+    "interestPaymentFrequency": "Annually",
+    "maturityDuration": {
+      "years": 9,
+      "months": 6
+    },
+    "yieldToMaturity": 4.9,
+    "effectiveReturns": "5.1%",
+    "securityClass": "Urban Development",
+    "couponType": "Variable Interest"
+  },
+  {
+    "id": 7,
+    "name": "Renewable Power Bond",
+    "type": "Energy Bond",
+    "price": 1300,
+    "couponRate": 8,
+    "rating": "AAA",
+    "interestPaymentFrequency": "Quarterly",
+    "maturityDuration": {
+      "years": 6,
+      "months": 4
+    },
+    "yieldToMaturity": 7.5,
+    "effectiveReturns": "7.3%",
+    "securityClass": "Energy",
+    "couponType": "Fixed Interest"
+  },
+  {
+    "id": 8,
+    "name": "Tech Innovation Bond",
+    "type": "Technology Bond",
+    "price": 2000,
+    "couponRate": 5.5,
+    "rating": "A+",
+    "interestPaymentFrequency": "Semi-Annually",
+    "maturityDuration": {
+      "years": 12,
+      "months": 1
+    },
+    "yieldToMaturity": 5.2,
+    "effectiveReturns": "5.1%",
+    "securityClass": "Technology",
+    "couponType": "Variable Interest"
+  },
+  {
+    "id": 9,
+    "name": "Corporate Bond",
+    "type": "Corporate",
+    "couponRate": 5.5,
+    "rating": "AAA",
+    "interestPaymentFrequency": "Annual",
+    "price": 1000,
+    "maturityDate": "2030-12-31"
+  },
+  {
+    "id": 10,
+    "name": "asdfghj",
+    "type": "sdfgh",
+    "couponRate": "565",
+    "rating": "45465",
+    "price": "47431215",
+    "maturityDate": "2024-11-28"
+  },
+  {
+    "id": 11,
+    "name": "gghj",
+    "type": "ghj",
+    "couponRate": "56",
+    "rating": "55",
+    "price": "200000",
+    "maturityDate": "2024-11-23"
+  },
+  {
+    "id": 12,
+    "name": "new bond",
+    "type": "type",
+    "couponRate": "300",
+    "rating": "A",
+    "price": "5000000",
+    "maturityDate": "2025-01-10"
+  },
+  {
+    "id": 13,
+    "name": "fygjk",
+    "type": "565",
+    "couponRate": "6565",
+    "rating": "ghghj",
+    "price": "56565632",
+    "maturityDate": "2024-12-07"
+  },
+  {
+    "id": 14,
+    "name": "new bond",
+    "type": "type",
+    "couponRate": "67",
+    "rating": "a",
+    "price": "600000",
+    "maturityDate": "2024-12-28"
+  },
+  {
+    "id": 15,
+    "name": "ABC",
+    "type": "ABC",
+    "couponRate": "4",
+    "rating": "10",
+    "price": "100",
+    "maturityDate": "2025-11-10"
+  },
+  {
+    "id": 16,
+    "name": "qwer",
+    "type": "asdfghj",
+    "couponRate": "7",
+    "rating": "6",
+    "price": "50000",
+    "maturityDate": "2025-12-05"
+  }
+]

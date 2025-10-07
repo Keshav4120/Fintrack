@@ -1,0 +1,137 @@
+[
+  {
+    "loanType": "Portfolio",
+    "loanAmount": 50000,
+    "tenure": 6,
+    "approvalDate": "2024-09-02T12:00:00Z"
+  },
+  {
+    "loanType": "Income",
+    "loanAmount": 30000,
+    "tenure": 12,
+    "approvalDate": "2024-09-02T14:00:00Z"
+  },
+  {
+    "loanType": "Portfolio",
+    "loanAmount": 100000,
+    "tenure": 24,
+    "approvalDate": "2024-09-03T10:00:00Z"
+  },
+  {
+    "loanType": "Portfolio",
+    "loanAmount": "10000",
+    "tenure": "5",
+    "approvalDate": "2024-09-01T21:39:01.993Z"
+  },
+  {
+    "loanType": "Portfolio",
+    "loanAmount": "11000",
+    "tenure": "5",
+    "approvalDate": "2024-09-01T21:40:51.318Z"
+  },
+  {
+    "loanType": "portfolio",
+    "loanAmount": "10000",
+    "tenure": "5",
+    "approvalDate": "2024-09-01T21:44:50.755Z"
+  },
+  {
+    "loanType": "income",
+    "loanAmount": "1000",
+    "tenure": "3",
+    "approvalDate": "2024-09-01T21:45:35.583Z"
+  },
+  {
+    "loanType": "portfolio",
+    "loanAmount": "1000",
+    "tenure": "3",
+    "approvalDate": "2024-09-01T21:52:14.331Z"
+  },
+  {
+    "loanType": "portfolio",
+    "loanAmount": "10000",
+    "tenure": "5",
+    "approvalDate": "2024-09-02T05:37:26.172Z"
+  },
+  {
+    "loanType": "portfolio",
+    "loanAmount": "34",
+    "tenure": "345",
+    "approvalDate": "2024-10-06T14:15:16.720Z"
+  },
+  {
+    "loanType": "portfolio",
+    "loanAmount": "12000",
+    "tenure": "12",
+    "approvalDate": "2024-10-06T17:49:26.368Z"
+  },
+  {
+    "loanType": "portfolio",
+    "loanAmount": "45",
+    "tenure": "8",
+    "approvalDate": "2024-10-07T00:57:50.567Z"
+  },
+  {
+    "approvalDate": "2024-10-09T22:56:12.523Z"
+  },
+  {
+    "id": "1732835694845",
+    "tenure": "11",
+    "approvalDate": "2024-11-28T23:14:54.845Z"
+  },
+  {
+    "id": "1732835713576",
+    "tenure": "4",
+    "approvalDate": "2024-11-28T23:15:13.576Z"
+  },
+  {
+    "id": "1732836476328",
+    "tenure": "5",
+    "approvalDate": "2024-11-28T23:27:56.328Z"
+  },
+  {
+    "id": "1732836638073",
+    "tenure": "221",
+    "approvalDate": "2024-11-28T23:30:38.073Z"
+  },
+  {
+    "id": "1732836686682",
+    "tenure": "466",
+    "approvalDate": "2024-11-28T23:31:26.682Z"
+  },
+  {
+    "id": "1732836845059",
+    "tenure": "6",
+    "approvalDate": "2024-11-28T23:34:05.059Z"
+  },
+  {
+    "id": "1732844143639",
+    "tenure": "2",
+    "approvalDate": "2024-11-29T01:35:43.639Z"
+  },
+  {
+    "id": "1732844518673",
+    "tenure": "1",
+    "approvalDate": "2024-11-29T01:41:58.673Z"
+  },
+  {
+    "id": "1733118717092",
+    "tenure": "2",
+    "approvalDate": "2024-12-02T05:51:57.092Z"
+  },
+  {
+    "id": "1733118752700",
+    "tenure": "87",
+    "approvalDate": "2024-12-02T05:52:32.700Z"
+  },
+  {
+    "id": "1733133569791",
+    "tenure": "12",
+    "approvalDate": "2024-12-02T09:59:29.791Z"
+  },
+  {
+    "id": "1733807519769",
+    "tenure": "7",
+    "approvalDate": "2024-12-10T05:11:59.769Z"
+  }
+]

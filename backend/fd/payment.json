@@ -1,0 +1,12 @@
+[
+    {
+      "id": 1,
+      "amount": 1000,
+      "email": "user@example.com",
+      "type": "buy",
+      "status": "success",
+      "timestamp": "2024-11-21T10:00:00Z"
+    }
+    
+  ]
+  

@@ -1,0 +1,227 @@
+[
+  {
+    "email": "test1@gmail.com",
+    "stocks": [
+      {
+        "name": "NVIDIA Corporation",
+        "symbol": "NVDA",
+        "sector": "Technology",
+        "units": 100,
+        "avgbuyprice": 12,
+        "liveprice": 142.44,
+        "currentvalue": 14244,
+        "change": 1087,
+        "priority": 1,
+        "id": 1,
+        "livePrice": 135.34
+      },
+      {
+        "id": 2,
+        "name": "Microsoft Corporation",
+        "symbol": "MSFT",
+        "sector": "Technology",
+        "liveprice": 443.57,
+        "units": 28,
+        "avgbuyprice": 21,
+        "currentvalue": 12419.96,
+        "change": 2012.24,
+        "priority": 2,
+        "livePrice": 422.99
+      },
+      {
+        "id": 3,
+        "name": "Apple Inc.",
+        "symbol": "AAPL",
+        "sector": "Technology",
+        "liveprice": 242.84,
+        "units": 50,
+        "avgbuyprice": 150,
+        "currentvalue": 12142,
+        "change": 61.89,
+        "priority": 3
+      },
+      {
+        "id": 4,
+        "name": "Exxon Mobil Corporation",
+        "symbol": "XOM",
+        "sector": "Energy",
+        "liveprice": 113.57,
+        "units": 100,
+        "avgbuyprice": 22,
+        "currentvalue": 11357,
+        "change": 416.23,
+        "priority": 4
+      }
+    ],
+    "priority": 1,
+    "id": 1
+  },
+  {
+    "email": "user2@example.com",
+    "stocks": [
+      {
+        "name": "NVIDIA Corporation",
+        "symbol": "NVDA",
+        "sector": "Technology",
+        "units": 123,
+        "avgbuyprice": 12,
+        "liveprice": 142.44,
+        "currentvalue": 17520.12,
+        "change": 1087,
+        "priority": 1,
+        "id": 1,
+        "livePrice": 135.34
+      },
+      {
+        "id": 2,
+        "name": "Tesla Inc.",
+        "symbol": "TSLA",
+        "sector": "Automotive",
+        "liveprice": 389.22,
+        "units": 15,
+        "avgbuyprice": 650,
+        "currentvalue": 5838.3,
+        "change": -40.12,
+        "priority": 2
+      },
+      {
+        "id": 3,
+        "name": "Amazon.com Inc.",
+        "symbol": "AMZN",
+        "sector": "Consumer Discretionary",
+        "liveprice": 227.03,
+        "units": 20,
+        "avgbuyprice": 130,
+        "currentvalue": 4540.6,
+        "change": 74.64,
+        "priority": 3
+      }
+    ],
+    "priority": 2,
+    "id": 2
+  },
+  {
+    "email": "user3@example.com",
+    "stocks": [
+      {
+        "id": 1,
+        "name": "Microsoft Corporation",
+        "symbol": "MSFT",
+        "sector": "Technology",
+        "liveprice": 443.57,
+        "units": 30,
+        "avgbuyprice": 21,
+        "currentvalue": 13307.1,
+        "change": 2012.24,
+        "priority": 1
+      },
+      {
+        "id": 2,
+        "name": "Johnson & Johnson",
+        "symbol": "JNJ",
+        "sector": "Healthcare",
+        "liveprice": 149.31,
+        "units": 10,
+        "avgbuyprice": 100,
+        "currentvalue": 1493.1,
+        "change": 49.31,
+        "priority": 2
+      }
+    ],
+    "priority": 3,
+    "id": 3
+  },
+  {
+    "email": "test2@gmail.com",
+    "stocks": [
+      {
+        "name": "Microsoft Corporation",
+        "symbol": "MSFT",
+        "sector": "Technology",
+        "units": 10,
+        "avgbuyprice": 12,
+        "priority": 1,
+        "id": 1,
+        "liveprice": 443.57,
+        "currentvalue": 4435.7,
+        "change": 3596.42
+      }
+    ],
+    "priority": 4,
+    "id": 4
+  },
+  {
+    "email": "aadarsh4751.be22@chitkara.edu.in",
+    "stocks": [
+      {
+        "name": "Amazon.com, Inc.",
+        "symbol": "AMZN",
+        "sector": "Consumer Services",
+        "units": 100,
+        "avgbuyprice": 22,
+        "liveprice": 227.03,
+        "currentvalue": 22703,
+        "change": 931.95,
+        "priority": 1,
+        "id": 1
+      }
+    ],
+    "priority": 5,
+    "id": 5
+  },
+  {
+    "email": "riya@gmail.com",
+    "stocks": [
+      {
+        "name": "Tesla, Inc.",
+        "symbol": "TSLA",
+        "sector": "Consumer Cyclical",
+        "units": 122,
+        "avgbuyprice": 123,
+        "liveprice": 389.22,
+        "currentvalue": 47484.84,
+        "change": 216.44,
+        "priority": 1,
+        "id": 1
+      },
+      {
+        "name": "NVIDIA Corporation",
+        "symbol": "NVDA",
+        "sector": "Technology",
+        "units": 122,
+        "avgbuyprice": 12,
+        "liveprice": 142.44,
+        "currentvalue": 17377.68,
+        "change": 1087,
+        "priority": 2,
+        "id": 2
+      },
+      {
+        "name": "Meta Platforms, Inc.",
+        "symbol": "META",
+        "sector": "Communication Services",
+        "units": 23,
+        "avgbuyprice": 234,
+        "liveprice": 623.77,
+        "currentvalue": 14346.71,
+        "change": 166.57,
+        "priority": 3,
+        "id": 3
+      },
+      {
+        "name": "Coca-Cola Company",
+        "symbol": "KO",
+        "sector": "Consumer Defensive",
+        "units": 10,
+        "avgbuyprice": 22,
+        "liveprice": 62.53,
+        "currentvalue": 625.3,
+        "change": 184.23,
+        "priority": 4,
+        "id": 4
+      }
+    ],
+    "priority": 6,
+    "id": 6
+  }
+]

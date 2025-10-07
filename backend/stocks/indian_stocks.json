@@ -1,0 +1,83 @@
+[
+  {
+    "email": "test1@gmail.com",
+    "stocks": [
+      {
+        "name": "Tata Consultancy Services",
+        "symbol": "TCS.NS",
+        "sector": "Information Technology",
+        "units": 100,
+        "avgbuyprice": 100,
+        "priority": 1,
+        "id": 1,
+        "liveprice": 4452.15,
+        "currentvalue": 445215,
+        "change": 4352.15
+      },
+      {
+        "id": 2,
+        "name": "ICICI Bank",
+        "symbol": "ICICIBANK.NS",
+        "sector": "Financial Services",
+        "liveprice": 1322.3,
+        "units": 25,
+        "avgbuyprice": 850,
+        "currentvalue": 33057.5,
+        "change": 55.56,
+        "priority": 2
+      },
+      {
+        "id": 3,
+        "name": "Reliance Industries",
+        "symbol": "RELIANCE.NS",
+        "sector": "Energy",
+        "liveprice": 1295.15,
+        "units": 10,
+        "avgbuyprice": 2300,
+        "currentvalue": 12951.5,
+        "change": -43.69,
+        "priority": 3
+      }
+    ],
+    "priority": 1,
+    "id": 1
+  },
+  {
+    "email": "user2@example.com",
+    "stocks": [
+      {
+        "id": 1,
+        "name": "HDFC Bank",
+        "symbol": "HDFCBANK.NS",
+        "sector": "Financial Services",
+        "liveprice": 1870,
+        "units": 15,
+        "avgbuyprice": 1500,
+        "currentvalue": 28050,
+        "change": 24.67,
+        "priority": 1
+      }
+    ],
+    "priority": 2,
+    "id": 2
+  },
+  {
+    "email": "user3@example.com",
+    "stocks": [
+      {
+        "id": 1,
+        "name": "Tata Consultancy Services",
+        "symbol": "TCS.NS",
+        "sector": "Information Technology",
+        "liveprice": 4452.15,
+        "units": 5,
+        "avgbuyprice": 3500,
+        "currentvalue": 22260.75,
+        "change": 27.2,
+        "priority": 1
+      }
+    ],
+    "priority": 3,
+    "id": 3
+  }
+]
